@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>PAIA Website</title>
+<link href="assets/bootstrap.css" rel="stylesheet" />
+<link href="assets/font-awesome.min.css" rel="stylesheet" />
+<link href="assets/main.css" rel="stylesheet" />
+<script src="assets/jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="assets/bootstrap.min.js" /></script>
+<script type="text/javascript" src="assets/kkcountdown.min.js" /></script>
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-brand navbar-left">
+				<a href="#">Test Selection</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.htm">Home</a></li>
+					<li><a href="project.htm">The Project</a></li>
+					<li class="active"><a href="install.htm">Installation</a></li>
+					<li><a href="report.htm">Reports</a></li>
+					<li><a href="about.htm">Who are we</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container wb">
+		<div class="row left">
+			<div class="col-lg-10 col-lg-offset-1">
+				<h1>Test Selection Tool Installation</h1>
+				<p>This tool aim to select the tests impacted by the lastest
+					modifications on the source code. This plugin records the changes
+					made in the IDE and suggest a list of test that can be relaunched
+					by the developer.
+				<div class="alert alert-danger" role="alert">
+					<b>NB:</b> This tool needs the <a href="#TestRecording">Test
+						Recording tool</a> to work. Consequently, the information dedicated to
+					tests runs in the IDE, we be also send anonymously to the server
+				</div>
+				The plugin is compatible with Eclipse (and IntelliJ in few weeks).
+				The install processes are described below for each IDE. You can
+				install the plugin on several IDEs on the same computer.
+				</p>
+				
+				
+
+
+
+				<h2>For Eclipse</h2>
+				<h3>Installation</h3>
+				<p>
+					The installation is made through this update site: <a
+						href="http://paia.atosworldline.com/repository/">http://paia.atosworldline.com/repository/</a>.
+				<ol>
+					<li>Open your Eclipse</li>
+					<li>In Help, go to <b>Install New Software...</b></li>
+					<li>In the text input file, paste: <b>http://paia.atosworldline.com/repository/</b>
+						and press Enter
+					</li>
+					<li>Select <b>Test Selector</b> item and press <b>Next</b>
+						then <b>Finish</b>. If you get an error, check your proxy.
+					</li>
+					<li>When the security warning happens, press OK</li>
+					<li>Be sure that your proxy exceptions contains:
+						"*.priv.atos.net" (Excepted some external people).</li>
+					<li>Restart Eclipse</li>
+					<li>Launch a test (via Maven or JUnit)</li>
+
+				</ol>
+				To be sure that the plugin is correctly installed, open the <b>Error
+					Log</b> (Window &gt;&gt; Show View &gt;&gt; Others and search Error
+				Log). And search for:
+				<code>Plugin Started: &lt;the date&gt;</code>
+				with the plugin name
+				<code>com.worldline.vbu.testselector</code>
+				and check that for there is no error related to it. On any problem,
+				please contact <a
+					href="mailto:vincent.blondeau@worldline.com?subject=[TestSelection]">me</a>
+				and send the Log (you can do an export).
+				</p>
+
+
+
+
+				
+				<h3>Supported versions</h3>
+				<p>Eclipse Luna (4.4) to Neon (4.6)</p>
+
+				<h2>For IntelliJ</h2> <!--==============================================================-->
+
+				<h3>Installation</h3>
+
+				<p>
+					The installation consist in setting up <a
+						href="download/com.worldline.vbu.testrecorder.intellij.zip">this
+						plugin</a> and <a
+						href="download/com.worldline.vbu.testselector.intellij.zip">this
+						plugin</a>.
+				<ol>
+					<li>If needed, uninstall the previously installed testrecorder plugin</li>
+					<ol>
+						<li>In your IntelliJ IDEA, Open the Settings (File &gt;&gt; Settings...)</li>
+						<li>In <b>Plugin</b> list, click on Test Recorder then on <b>Uninstall</b></li>
+						<li>Restart your ide</li>
+					</ol>
+					<li>Download the plugin (see links above)</li>
+					<li>In your IntelliJ IDEA, Open the Settings (File &gt;&gt; Settings...)</li>
+					<li>For the two plugins do:</li>
+					<ol>
+						<li>In <b>Plugin</b>, click on <b>Install plugin from
+							disk...</b></li>
+						<li>Locate the previously downloaded zip and click Ok</li>
+						<li>Click on OK in the settings window</li>
+					</ol>
+					<li>Restart IntelliJ IDEA</li>
+					<li>Launch a test (via Maven or JUnit)</li>
+				</ol>
+				To be sure that the plugin is correctly installed and is recording,
+				open the <b>Log file</b> (Help &gt;&gt; Show Log in Explorer and open <code>idea.log</code>). And search for:
+				<code>INFO - intellij.TestRecorderActivator - Plugin Started:</code>
+				and for
+				<code>Sync memory successful</code>
+				. If you do not have these entries, search first in
+				<code>idea.log.1</code>
+				and if the issue is still present please contact <a
+					href="mailto:vincent.blondeau@worldline.com?subject=[TestSelection]">me</a>
+				and please send the Log file.
+				</p>
+				<h3>Supported versions</h3>
+				
+				<p>IntelliJ 2017.1. But it may work on older versions (not tested).</p>
+			
+
+
+			<h2>Features</h2>
+
+				<h3>Test Selection Window</h3>
+				For <b>Eclipse</b>, this window automatically opens at startup on the bottom.
+				If the window does not open, you can do: <br>
+				<code>Windows &gt;&gt; Show View &gt;&gt; Others... &gt;&gt;
+					Other &gt;&gt; List of test impacted</code>
+					<br>
+				For <b>IntelliJ</b>, you have to open the window through <code>View  &gt;&gt; Tool Windows  &gt;&gt; List of Test Impacted</code><br>
+
+				<img src="images/screenshot-impactedTestsList.png" alt="Impacted Tests List" > 
+
+<br>				This window displays automatically the tests that are selected to be relaunched and their execution status.
+				Green stand for test passing, yellow  for assertion failure, and red for error. Gray means that the tests has not been launched.
+
+				<br> You will be able to:
+				<ul>
+					<li>Choose a <b>strategy to trigger the test selection</b>,
+						i.e. to choose when the tests will be selected, between:
+						<ul>
+							<li><b>After 5 minutes</b>: All the tests that have been impacted within a period of 5 minutes since the first change after the last test run session are selected</li>
+							<li><b>At each change</b>: The impacted tests are selected immediately after each change in the application (save,
+								file update,...)</li>
+							<li><b>On commit change</b>: the tests will be selected when a commit is done (works if the commit is made outside the IDE)</li>
+							<li><b>Do nothing</b>: the test selection is not triggered.</li>
+						</ul>
+					</li>
+					<li>Choose to run automatically the impacted tests: The checkbox <b>Auto run selected tests</b> allows to enable/disable it</li>
+					<li><b>Reset</b>: remove all the tests in the selection</li>
+					<li><b>Force launch tests</b>: launch the tests that
+						are in the list</li>
+				</ul>
+				<div class="alert alert-info" role="alert">
+					If you encounter any issue with plugin, you can desactivate it in
+					the preferences of the plugin (before clicking on
+					<code>OK</code>, please check that the server URL is set to:
+					<code>http://paia.atosworldline.com/testSelection/</code>
+					).
+				</div>
+				<div class="alert alert-success" role="alert">
+					For more informations on the internals of the plugin, I advise you
+					to look at the slides <a>here (comming soon!)</a>.
+				</div>
+
+</div>
+			<div class="col-lg-10 col-lg-offset-1">
+				<section id="TestRecording">
+					<h1>Test Recording Tool Installation</h1>
+				</section>
+				<p>
+					This tool monitors all the tests (JUnit) that will be launched in
+					the IDE: Maven or JUnit direct execution, and <b>anonymously</b>
+					sent to a server.
+				<div class="alert alert-danger" role="alert">
+					<b>NB:</b> The data will only be used for research purposes!
+				</div>
+				The plugin is compatible with Eclipse and IntelliJ. The install
+				processes are described below for each IDE. You can install the
+				plugin on several IDEs on the same machine.
+				</p>
+				<h2>For Eclipse</h2>
+				<h3>Installation</h3>
+				<p>
+					The installation is made through this update site: <a
+						href="http://paia.atosworldline.com/repository/">http://paia.atosworldline.com/repository/</a>.
+				
+				<ol>
+					<li>Open your Eclipse</li>
+					<li>In Help, go to <b>Install New Software...</b></li>
+					<li>In the text input file, paste: <b>http://paia.atosworldline.com/repository/</b>
+						and press Enter
+					</li>
+					<li>Select <b>Test Recorder</b> item and press <b>Next</b>
+						then <b>Finish</b>. If you get an error, check your proxy.
+					</li>
+					<li>When the security warning happens, press OK</li>
+					<li>Be sure that your proxy exceptions contains:
+						"*.priv.atos.net" (Except some external people).</li>
+					<li>Restart Eclipse</li>
+					<li>Launch a test (via Maven or JUnit)</li>
+				</ol>
+				To be sure that the plugin is correctly installed, open the <b>Error
+					Log</b> (Window &gt;&gt; Show View &gt;&gt; Others and search Error
+				Log). And search for:
+				<code>Plugin Started: &lt;the date&gt;</code>
+				with the plugin name
+				<code>com.worldline.vbu.testrecorder</code>
+				and search for
+				<code>Sync memory successful</code>
+				. If you do not have these entries, please contact <a
+					href="mailto:vincent.blondeau@worldline.com?subject=[TestSelection]">me</a>
+				and send the Log (you can do an export).
+				</p>
+				<h3>Specific features</h3>
+				<p>
+					The plugin should be totally invisible for the developper (excepted
+					a trace in the error log at each test launch). However, if you
+					encounter an issue, you can disable it easily. In Window &gt;
+					Preferences, go to <b>Test Recorder Settings</b> and select Disable
+					plugin.
+				</p>
+
+				<h3>Supported versions</h3>
+				<p>Eclipse Helios (3.6) to Neon (4.6)</p>
+			</div>
+			<div class="col-lg-10 col-lg-offset-1">
+
+				<h2>For IntelliJ</h2>
+				<h3>Installation</h3>
+				<p>
+					The installation consist in setting up<a
+						href="download/com.worldline.vbu.testrecorder.intellij.zip">this
+						plugin for IntelliJ &gt;= 15</a> or <a
+						href="download/com.worldline.vbu.testrecorder.intellijV14.zip">this
+						plugin for IntelliJ = 14</a>.
+				<ol>
+					<li>Download the plugin (see links above)</li>
+					<li>Open your IntelliJ IDEA</li>
+					<li>Open the Settings (File &gt;&gt; Settings...)</li>
+					<li>In <b>Plugin</b>, click on <b>Install plugin from
+							disk...</b></li>
+					<li>Locate the previously downloaded zip and click Ok</li>
+					<li>Click on OK in the settings window</li>
+					<li>Restart IntelliJ IDEA</li>
+					<li>Launch a test (via Maven or JUnit)</li>
+				</ol>
+				To be sure that the plugin is correctly installed and is recording,
+				open the <b>Log file</b> (Help &gt;&gt; Show Log in Explorer and
+				open
+				<code>idea.log</code>
+				). And search for:
+				<code>INFO - intellij.TestRecorderActivator - Plugin Started:</code>
+				and for
+				<code>Sync memory successful</code>
+				. If you do not have these entries, search first in
+				<code>idea.log.1</code>
+				and if the issue is still present please contact <a
+					href="mailto:vincent.blondeau@worldline.com?subject=[TestSelection]">me</a>
+				and please send the Log file.
+				</p>
+				<h3>Supported versions</h3>
+				<p>IntelliJ 2015 and 2016. But it may work on older versions
+					(not tested).</p>
+			</div>
+
+		</div>
+	</div>
+	<!-- row -->
+	</div>
+	<!-- container -->
+
+
+
+
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-md-12">
+					<p class="muted credit">
+						<b>Vincent Blondeau</b> <a
+							href="mailto:vincent.blondeau@worldline.com">vincent.blondeau@worldline.com</a>
+					</p>
+				</div>
+
+			</div>
+			<!-- row -->
+		</div>
+		<!-- container -->
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js" />
+	<script src="assets/bootstrap.min.js" />
+</body>
+</html>

@@ -1,0 +1,3 @@
+[submodule "plugins/com.worldline.vbu.testselector"]
+	path = plugins/com.worldline.vbu.testselector
+	url = git@github.com:VincentBlondeau/testSelectorJava.git
