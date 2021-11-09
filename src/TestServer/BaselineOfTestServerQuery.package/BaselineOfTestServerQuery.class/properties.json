@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfTestServerQuery",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfTestServerQuery",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

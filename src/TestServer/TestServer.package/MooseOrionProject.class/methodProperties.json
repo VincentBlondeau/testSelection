@@ -1,0 +1,27 @@
+{
+	"instance" : {
+		"initialize" : "VincentBlondeau 11/28/2016 15:37",
+		"lastMse" : "VincentBlondeau 12/1/2016 13:33",
+		"checkType:" : "VincentBlondeau 11/28/2016 15:33",
+		"name" : "VincentBlondeau 11/29/2016 15:41",
+		"resetMseList" : "VincentBlondeau 3/15/2017 14:33",
+		"loadCompleteProjectInMemory" : "VincentBlondeau 12/5/2016 11:02",
+		"user" : "VincentBlondeau 11/29/2016 15:43",
+		"lastChanges" : "VincentBlondeau 12/1/2016 15:10",
+		"model" : "VincentBlondeau 12/1/2016 11:46",
+		"user:" : "VincentBlondeau 11/28/2016 15:26",
+		"exportMSEsToFolder:" : "VincentBlondeau 4/19/2017 17:53",
+		"name:" : "VincentBlondeau 11/28/2016 15:25",
+		"mseList" : "VincentBlondeau 11/28/2016 15:37",
+		"fullMse" : "VincentBlondeau 1/17/2017 17:00",
+		"addNewMSE:type:changes:" : "VincentBlondeau 2/13/2017 15:41",
+		"importPartialMse:" : "VincentBlondeau 2/13/2017 16:34",
+		"listOfMSETypesAndActions" : "VincentBlondeau 11/28/2016 15:31",
+		"printOn:" : "VincentBlondeau 12/8/2016 10:55",
+		"importFullMse:" : "VincentBlondeau 1/13/2017 10:51",
+		"containsOnlyRootMSE" : "VincentBlondeau 11/29/2016 15:49"
+	},
+	"class" : {
+		"named:user:" : "VincentBlondeau 11/28/2016 15:25"
+	}
+}

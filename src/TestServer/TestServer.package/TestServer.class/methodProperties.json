@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"initialize" : "VincentBlondeau 4/6/2017 14:04",
+		"id:" : "VincentBlondeau 1/26/2016 10:47",
+		"serializeJson:" : "VincentBlondeau 4/6/2017 14:04",
+		"startOn:" : "VincentBlondeau 11/25/2016 14:22",
+		"uploadActions" : "VincentBlondeau 3/6/2017 11:42",
+		"insertUploadedData:" : "VincentBlondeau 1/22/2016 16:18"
+	},
+	"class" : {
+		"initialize" : "VincentBlondeau 3/6/2017 11:38",
+		"logFacilityLevel" : "VincentBlondeau 1/16/2017 16:05",
+		"version" : "VincentBlondeau 11/25/2016 14:18"
+	}
+}

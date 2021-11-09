@@ -1,0 +1,3 @@
+*TestServer-Query
+ratioOfSingleAgglomeratedTestSession
+	^ self numberOfSingleAgglomeratedTestSessions / self numberOfAgglomeratedTestSessions

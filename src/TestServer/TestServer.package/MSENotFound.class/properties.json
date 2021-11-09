@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "NotFound",
+	"category" : "TestServer-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MSENotFound",
+	"type" : "normal"
+}

@@ -1,0 +1,20 @@
+{
+	"instance" : {
+		"summaryOfTestSelectionBySession" : "BenoitVerhaeghe 6/19/2017 09:12",
+		"numberOfTestExectutions" : "VincentBlondeau 8/17/2016 16:52",
+		"numberOfSingleAgglomeratedTestSessions" : "VincentBlondeau 8/17/2016 20:47",
+		"ratioOfSingleAgglomeratedTestSession" : "VincentBlondeau 8/17/2016 21:08",
+		"allGroupedProjectsByEntity" : "VincentBlondeau 8/17/2016 18:30",
+		"maxNbTestsByProject" : "VincentBlondeau 8/17/2016 21:18",
+		"forceResetMooseNameOfAllEntities" : "VincentBlondeau 8/2/2016 18:11",
+		"numberOfAgglomeratedTestSessions" : "VincentBlondeau 8/17/2016 20:47",
+		"numberOfSingleTestSessions" : "VincentBlondeau 8/17/2016 16:54",
+		"findCommitsNamed:" : "VincentBlondeau 8/11/2016 12:09",
+		"numberOfMultipleTestSessions" : "VincentBlondeau 8/17/2016 18:08",
+		"numberOfTestSessions" : "VincentBlondeau 8/17/2016 16:52",
+		"ratioOfSingleTestSession" : "VincentBlondeau 8/17/2016 16:55",
+		"sumDurationByProject" : "VincentBlondeau 8/22/2016 17:59",
+		"numberOfMultipleAgglomeratedTestSessions" : "VincentBlondeau 8/17/2016 20:45"
+	},
+	"class" : { }
+}

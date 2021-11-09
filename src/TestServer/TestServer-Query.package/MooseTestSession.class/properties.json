@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "MooseEntity",
+	"category" : "TestServer-Query-DeltaModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"start",
+		"end",
+		"duration",
+		"people",
+		"project",
+		"testExecutions",
+		"versionTested",
+		"versionTestedString",
+		"versionsTested",
+		"type",
+		"coraStrategy"
+	],
+	"name" : "MooseTestSession",
+	"type" : "normal"
+}

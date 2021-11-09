@@ -1,0 +1,20 @@
+{
+	"instance" : {
+		"testsBySession" : "VincentBlondeau 8/17/2016 20:59",
+		"results" : "VincentBlondeau 8/17/2016 19:06",
+		"compute" : "VincentBlondeau 8/17/2016 21:01",
+		"descriptiveStats" : "VincentBlondeau 8/17/2016 21:27",
+		"model" : "VincentBlondeau 8/17/2016 16:30",
+		"model:" : "VincentBlondeau 8/17/2016 16:30",
+		"correlationWithDuration" : "VincentBlondeau 8/17/2016 19:40",
+		"correlationDurationNbAgglomeratedTestsAndTotalOfTests" : "BenoitVerhaeghe 6/16/2017 16:00",
+		"testSelectionByProjectAndPeople" : "VincentBlondeau 8/17/2016 19:46",
+		"run" : "VincentBlondeau 8/17/2016 19:02",
+		"testSelectionByProjectAndPeopleAgglomerated" : "VincentBlondeau 8/17/2016 20:57",
+		"result" : "VincentBlondeau 8/17/2016 17:06",
+		"correlationDurationNbTestsAndTotalOfTests" : "BenoitVerhaeghe 6/16/2017 16:00",
+		"computeDelayToFixTest" : "VincentBlondeau 3/6/2017 16:52",
+		"testsBySessionAgglomerated" : "VincentBlondeau 8/17/2016 20:59"
+	},
+	"class" : { }
+}

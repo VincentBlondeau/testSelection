@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "VincentBlondeau 6/6/2016 15:26",
+	"super" : "Error",
+	"category" : "TestServer-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DBDataCorrupted",
+	"type" : "normal"
+}

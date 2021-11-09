@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "VincentBlondeau 1/14/2016 15:24",
+	"super" : "Error",
+	"category" : "TestServer-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contents",
+		"fieldName"
+	],
+	"name" : "TSMalformedJsonInput",
+	"type" : "normal"
+}

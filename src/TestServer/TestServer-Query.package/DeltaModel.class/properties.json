@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "TestServer-Query-DeltaModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model",
+		"listOfSessions",
+		"listOfPeople",
+		"listOfProjects",
+		"listOfTestExecution",
+		"commitModel"
+	],
+	"name" : "DeltaModel",
+	"type" : "normal"
+}

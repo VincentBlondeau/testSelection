@@ -1,0 +1,3 @@
+as yet unclassified
+doesAgglo: aMooseAgglomeratedTestSessionGroup includesATestOf: aMooseTestSession
+	^ aMooseAgglomeratedTestSessionGroup allTestExecutionsNames includesAny: aMooseTestSession testExecutionsNames

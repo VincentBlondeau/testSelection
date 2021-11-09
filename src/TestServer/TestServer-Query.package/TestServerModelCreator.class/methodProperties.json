@@ -1,0 +1,26 @@
+{
+	"instance" : {
+		"agglomerateTestsSessions" : "VincentBlondeau 8/19/2016 11:58",
+		"model" : "VincentBlondeau 8/17/2016 16:02",
+		"model:" : "VincentBlondeau 8/17/2016 16:02",
+		"createModel" : "BenoitVerhaeghe 6/8/2017 16:26",
+		"doesAgglo:includesATestOf:" : "VincentBlondeau 8/17/2016 20:23",
+		"createCommitModel" : "VincentBlondeau 3/8/2017 11:20",
+		"createAgglomerateTestsSessionsAndLinkCommits" : "BenoitVerhaeghe 6/8/2017 16:26",
+		"modelKind" : "BenoitVerhaeghe 6/8/2017 16:04",
+		"isCommitFromList:between:and:" : "VincentBlondeau 8/17/2016 20:37",
+		"basicRun" : "VincentBlondeau 8/17/2016 16:06",
+		"fetchDataForModel" : "BenoitVerhaeghe 6/8/2017 14:43"
+	},
+	"class" : {
+		"authorNameToIdMapping4" : "VincentBlondeau 8/17/2016 16:26",
+		"authorNameToIdMapping2" : "VincentBlondeau 8/17/2016 16:26",
+		"runOn:" : "VincentBlondeau 8/17/2016 16:24",
+		"authorNameToIdMapping5" : "VincentBlondeau 3/8/2017 14:19",
+		"authorNameToIdMapping3" : "VincentBlondeau 8/17/2016 16:26",
+		"authorNameToIdMapping1" : "VincentBlondeau 8/17/2016 16:26",
+		"enhanceAuthorsWithID:" : "VincentBlondeau 8/17/2016 16:27",
+		"authorNameToIdMapping" : "VincentBlondeau 3/8/2017 14:20",
+		"authorNameToIdMapping6" : "VincentBlondeau 3/8/2017 14:20"
+	}
+}

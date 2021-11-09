@@ -1,0 +1,11 @@
+{
+	"instance" : {
+		"port" : "VincentBlondeau 11/28/2016 14:02",
+		"setUp" : "VincentBlondeau 11/28/2016 14:02",
+		"tearDown" : "VincentBlondeau 11/28/2016 14:01",
+		"serverAddress" : "VincentBlondeau 11/28/2016 14:04",
+		"testServerNominalCase" : "VincentBlondeau 12/2/2016 15:02",
+		"mse" : "VincentBlondeau 11/28/2016 15:04"
+	},
+	"class" : { }
+}

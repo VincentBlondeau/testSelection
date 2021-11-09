@@ -1,0 +1,28 @@
+{
+	"instance" : {
+		"isFullMse" : "VincentBlondeau 11/28/2016 16:22",
+		"changes" : "VincentBlondeau 12/8/2016 11:04",
+		"removeChanges" : "VincentBlondeau 2/13/2017 16:30",
+		"mse" : "VincentBlondeau 11/28/2016 16:29",
+		"selectLastestTests" : "VincentBlondeau 5/19/2017 18:07",
+		"type" : "VincentBlondeau 11/28/2016 16:22",
+		"selectTestsFromOrChanges" : "VincentBlondeau 1/24/2017 17:56",
+		"project" : "VincentBlondeau 12/8/2016 11:15",
+		"type:" : "VincentBlondeau 11/28/2016 15:39",
+		"model" : "VincentBlondeau 12/8/2016 11:15",
+		"diffChanges" : "VincentBlondeau 12/8/2016 16:42",
+		"type:changes:content:" : "VincentBlondeau 11/28/2016 15:46",
+		"model:" : "VincentBlondeau 12/8/2016 11:15",
+		"mse:" : "VincentBlondeau 11/28/2016 15:49",
+		"project:" : "VincentBlondeau 12/8/2016 11:15",
+		"changes:" : "VincentBlondeau 11/28/2016 15:39",
+		"diffChanges:" : "VincentBlondeau 12/8/2016 16:48",
+		"orChanges" : "VincentBlondeau 12/8/2016 11:25",
+		"printOn:" : "VincentBlondeau 12/8/2016 11:26",
+		"createModelFromMse" : "VincentBlondeau 12/8/2016 11:47",
+		"serialize" : "VincentBlondeau 11/28/2016 15:49"
+	},
+	"class" : {
+		"type:changes:content:" : "VincentBlondeau 11/28/2016 15:38"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "FAMIXNamedEntity",
+	"category" : "TestServer-Query-DeltaModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"timestamp",
+		"actionType",
+		"snapshot",
+		"package",
+		"people"
+	],
+	"name" : "MooseTestChange",
+	"type" : "normal"
+}

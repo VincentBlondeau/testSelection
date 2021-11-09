@@ -1,0 +1,3 @@
+*TestServer-Query
+numberOfAgglomeratedTestSessions
+	^ self allAgglomeratedTestSessions size

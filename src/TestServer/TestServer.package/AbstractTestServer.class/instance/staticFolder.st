@@ -1,0 +1,3 @@
+accessing
+staticFolder
+	^ staticFolder asFileReference 

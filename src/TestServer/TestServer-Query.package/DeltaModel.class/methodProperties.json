@@ -1,0 +1,42 @@
+{
+	"instance" : {
+		"createCommitLinksOn:" : "VincentBlondeau 8/11/2016 14:57",
+		"makeDeltaModelOn:" : "VincentBlondeau 8/11/2016 15:55",
+		"model" : "VincentBlondeau 8/17/2016 16:06",
+		"listOfTestExecution" : "VincentBlondeau 8/8/2016 18:04",
+		"listOfSessions" : "VincentBlondeau 8/8/2016 17:38",
+		"model:" : "VincentBlondeau 8/17/2016 16:06",
+		"generateMooseEntitiesForCommitOn:" : "BenoitVerhaeghe 6/8/2017 16:04",
+		"listOfPeople" : "VincentBlondeau 8/8/2016 17:41",
+		"addListsToModel" : "VincentBlondeau 8/8/2016 18:18",
+		"initialize" : "VincentBlondeau 8/8/2016 18:05",
+		"listOfProjects" : "VincentBlondeau 8/8/2016 17:45",
+		"createTestInModel:" : "BenoitVerhaeghe 7/31/2017 09:38",
+		"generateMooseEntitiesForTestOn:withData:" : "BenoitVerhaeghe 6/9/2017 15:21",
+		"makeDeltaModelOn:withData:" : "BenoitVerhaeghe 6/8/2017 16:13",
+		"resolveTestedVersion" : "VincentBlondeau 8/11/2016 12:20",
+		"addAuthorName" : "VincentBlondeau 8/11/2016 12:21"
+	},
+	"class" : {
+		"exportToFile:withData:" : "VincentBlondeau 8/17/2016 13:13",
+		"computeAutoVsManuelTestSelection:" : "VincentBlondeau 3/24/2017 16:37",
+		"associateTestCommitsByPairsFromDiffsCommitsAndAll:" : "VincentBlondeau 3/6/2017 17:44",
+		"searchForPreviousCommitsOf:" : "VincentBlondeau 8/18/2016 18:09",
+		"exportListOfVersionsAndDeltasToComputeFromChanges:" : "VincentBlondeau 8/18/2016 21:02",
+		"computeDiffsPreviousVersion:nextVersion:" : "VincentBlondeau 8/10/2016 11:12",
+		"alreadyIncludesTestsOfSession:inCollection:" : "VincentBlondeau 8/16/2016 17:38",
+		"selectChangesAndTestsFromVerifiedTestSessions:" : "VincentBlondeau 8/18/2016 21:12",
+		"computeVerifiedTestSession:" : "VincentBlondeau 8/18/2016 18:22",
+		"extractSessionsAndProjectsToDiffFrom:" : "VincentBlondeau 8/16/2016 19:45",
+		"listOfCommitsToRemoveForAnalysis" : "VincentBlondeau 8/16/2016 15:25",
+		"removeCommitsFrom:" : "VincentBlondeau 8/16/2016 20:50",
+		"loadSelectedTestsAndCompute:" : "VincentBlondeau 3/21/2017 18:41",
+		"listOfTestsSessionsToRemoveForAnalysis" : "VincentBlondeau 8/16/2016 15:22",
+		"computeDiffsCommitsAndAll:" : "VincentBlondeau 3/14/2017 17:58",
+		"selectChangesAndTestsFromPairs:" : "VincentBlondeau 3/14/2017 17:43",
+		"computeCorChangesAndTests:" : "VincentBlondeau 3/24/2017 16:11",
+		"computeGroupsOfTests:" : "VincentBlondeau 8/16/2016 17:56",
+		"loadSelectedTestsAndComputeOld:" : "VincentBlondeau 8/17/2016 13:23",
+		"computeGroupsOfCommits:" : "VincentBlondeau 8/16/2016 17:56"
+	}
+}

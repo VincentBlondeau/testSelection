@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "VincentBlondeau 1/13/2017 17:01",
+	"super" : "TestPartialDiffFromMSE",
+	"category" : "TestServer-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TestPartialDiffFromMSEAndTestsDonjon",
+	"type" : "normal"
+}

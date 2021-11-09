@@ -1,0 +1,1 @@
+TSRollback is thrown on transaction rollback

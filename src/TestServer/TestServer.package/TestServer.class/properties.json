@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractTestServer",
+	"category" : "TestServer-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fileCount"
+	],
+	"name" : "TestServer",
+	"type" : "normal"
+}

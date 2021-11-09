@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"staticFolder" : "VincentBlondeau 11/25/2016 14:19",
+		"initialize" : "VincentBlondeau 11/25/2016 14:18",
+		"logConnection:" : "VincentBlondeau 3/6/2017 12:17",
+		"startOn:" : "VincentBlondeau 5/31/2017 18:17",
+		"stop" : "VincentBlondeau 3/6/2017 11:41",
+		"staticFolder:" : "VincentBlondeau 11/25/2016 14:19",
+		"logger" : "VincentBlondeau 3/6/2017 11:41"
+	},
+	"class" : {
+		"startOn:staticFolder:" : "VincentBlondeau 3/6/2017 11:40",
+		"initialize" : "VincentBlondeau 3/15/2017 16:27",
+		"version" : "VincentBlondeau 11/25/2016 14:28",
+		"startOn:" : "VincentBlondeau 3/6/2017 11:40",
+		"stop" : "VincentBlondeau 11/25/2016 14:18",
+		"logger" : "VincentBlondeau 3/6/2017 11:37",
+		"isDebug" : "VincentBlondeau 5/19/2017 18:16",
+		"logFacilityLevel" : "VincentBlondeau 1/16/2017 16:06"
+	}
+}

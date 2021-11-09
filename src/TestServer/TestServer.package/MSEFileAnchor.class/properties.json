@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "TestServer-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type",
+		"changes",
+		"mse",
+		"project",
+		"model",
+		"diffChanges"
+	],
+	"name" : "MSEFileAnchor",
+	"type" : "normal"
+}

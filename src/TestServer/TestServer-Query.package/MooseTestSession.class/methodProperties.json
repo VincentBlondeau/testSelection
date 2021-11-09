@@ -1,0 +1,42 @@
+{
+	"instance" : {
+		"dateBegin" : "VincentBlondeau 8/10/2016 17:24",
+		"both:and:beginsWith:" : "VincentBlondeau 8/9/2016 14:26",
+		"numberOfTests" : "VincentBlondeau 8/17/2016 16:49",
+		"initialize" : "VincentBlondeau 8/11/2016 12:07",
+		"versionTestedString" : "VincentBlondeau 8/11/2016 11:51",
+		"dateEnd" : "VincentBlondeau 8/10/2016 17:24",
+		"duration" : "VincentBlondeau 8/8/2016 18:25",
+		"start:" : "VincentBlondeau 8/8/2016 17:58",
+		"isCommit" : "VincentBlondeau 8/18/2016 14:49",
+		"project" : "VincentBlondeau 8/8/2016 18:29",
+		"testExecutions" : "VincentBlondeau 8/8/2016 18:38",
+		"isRepo:matches:" : "VincentBlondeau 8/9/2016 15:50",
+		"both:and:includesASubstringIn:" : "VincentBlondeau 8/9/2016 15:28",
+		"mooseNameOn:" : "BenoitVerhaeghe 6/8/2017 16:22",
+		"testExecutionsNames" : "VincentBlondeau 8/17/2016 20:23",
+		"findRepoMatching:in:" : "VincentBlondeau 8/9/2016 14:17",
+		"versionsTested" : "VincentBlondeau 8/11/2016 12:06",
+		"end" : "VincentBlondeau 8/8/2016 18:25",
+		"date" : "VincentBlondeau 8/9/2016 19:22",
+		"versionTestedString:" : "VincentBlondeau 8/11/2016 11:51",
+		"both:and:includesSubstring:" : "VincentBlondeau 8/9/2016 14:32",
+		"testSelectionRatio" : "BenoitVerhaeghe 6/16/2017 15:59",
+		"people" : "VincentBlondeau 8/8/2016 18:27",
+		"people:" : "VincentBlondeau 8/8/2016 18:32",
+		"versionsTested:" : "VincentBlondeau 8/11/2016 12:06",
+		"end:" : "VincentBlondeau 8/8/2016 17:58",
+		"id:" : "VincentBlondeau 8/8/2016 17:39",
+		"isMultiple" : "VincentBlondeau 8/17/2016 18:03",
+		"project:" : "VincentBlondeau 8/8/2016 18:32",
+		"id" : "VincentBlondeau 8/8/2016 18:36",
+		"numberOfPassingTests" : "VincentBlondeau 8/20/2016 21:20",
+		"findNearestCommits" : "VincentBlondeau 3/6/2017 15:41",
+		"findNearestCommit" : "VincentBlondeau 8/9/2016 10:35",
+		"duration:" : "VincentBlondeau 8/8/2016 18:02",
+		"start" : "VincentBlondeau 8/9/2016 10:25"
+	},
+	"class" : {
+		"annotation" : "VincentBlondeau 8/8/2016 18:21"
+	}
+}

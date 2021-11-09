@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestServerAbstractConnector",
+	"category" : "TestServer-Query-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model"
+	],
+	"name" : "TestServerModelCreator",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TestPartialDiffFromMSEAndTestsABCAndTestClass",
+	"category" : "TestServer-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TestPartialDiffFromMSEABCAndTestsRemoveClass",
+	"type" : "normal"
+}

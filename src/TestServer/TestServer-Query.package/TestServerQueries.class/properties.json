@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "TestServerAbstractConnector",
+	"category" : "TestServer-Query-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Count",
+		"Result"
+	],
+	"instvars" : [
+		"results",
+		"numberOfTestBySessionByProject",
+		"count",
+		"shouldOpenInspector",
+		"shouldOpenExcel"
+	],
+	"name" : "TestServerQueries",
+	"type" : "normal"
+}

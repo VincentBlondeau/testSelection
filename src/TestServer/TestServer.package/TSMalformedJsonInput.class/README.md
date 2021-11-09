@@ -1,0 +1,1 @@
+Exception send when the json file is invalid

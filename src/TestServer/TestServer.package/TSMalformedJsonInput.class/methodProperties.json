@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"messageText" : "VincentBlondeau 1/14/2016 15:35",
+		"field:" : "VincentBlondeau 1/14/2016 15:22",
+		"contents:" : "VincentBlondeau 1/14/2016 15:21"
+	},
+	"class" : {
+		"signal:onField:" : "VincentBlondeau 1/14/2016 15:21"
+	}
+}

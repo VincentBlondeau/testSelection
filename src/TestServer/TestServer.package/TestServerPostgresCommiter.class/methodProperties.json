@@ -1,0 +1,28 @@
+{
+	"instance" : {
+		"ensureIsolatedSuccess:" : "VincentBlondeau 1/16/2017 16:04",
+		"findOrCreateSelectPrepQuery:insertPrepQuery:" : "VB 8/12/2016 12:05",
+		"initialize" : "VincentBlondeau 1/20/2016 12:12",
+		"findOrCreateClassNamed:projectId:versionId:" : "VB 8/30/2016 10:44",
+		"commitJson:" : "VincentBlondeau 1/20/2016 12:16",
+		"insertClassesEntry:executionId:projectId:versionId:" : "VincentBlondeau 2/10/2016 14:20",
+		"findOrCreateProjectNamed:repositories:" : "VincentBlondeau 2/10/2016 14:26",
+		"findOrCreateVersion:projectId:" : "VincentBlondeau 2/10/2016 15:06",
+		"insertJson:" : "VincentBlondeau 2/10/2016 15:39",
+		"findOrCreateProjectNamed:" : "VB 8/30/2016 10:44",
+		"createExecution:withUserId:" : "VincentBlondeau 4/6/2017 15:31",
+		"insertEclipseProjectExecutions:projectId:userId:" : "VincentBlondeau 2/10/2016 15:06",
+		"findOrCreateMethodNamed:classId:projectId:versionId:" : "VB 8/30/2016 10:43",
+		"findOrCreateSelectQuery:insertQuery:" : "VincentBlondeau 1/26/2016 15:35",
+		"insertMethodEntry:executionId:classId:projectId:versionId:" : "VB 8/30/2016 10:43",
+		"createLinkBetweenProjectId:andUserId:" : "VincentBlondeau 1/12/2016 18:36",
+		"createLinkBetweenProjectId:andRepoId:" : "VB 8/30/2016 10:43",
+		"findOrCreateUserNamed:" : "VB 8/30/2016 10:45",
+		"repositoriesStringFrom:separatedBy:" : "VincentBlondeau 2/10/2016 13:38",
+		"insertEclipseProject:userId:" : "VincentBlondeau 2/10/2016 15:47",
+		"findOrCreateRepositoryNamed:" : "VB 8/30/2016 10:45"
+	},
+	"class" : {
+		"commitJson:" : "VincentBlondeau 1/22/2016 18:30"
+	}
+}

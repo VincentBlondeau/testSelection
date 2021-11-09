@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TestServerAbstractConnector",
+	"category" : "TestServer-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TestServerPostgresCommiter",
+	"type" : "normal"
+}

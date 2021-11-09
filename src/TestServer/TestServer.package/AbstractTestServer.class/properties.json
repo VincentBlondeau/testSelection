@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "TestServer-Core",
+	"classinstvars" : [
+		"LoggerInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"Port"
+	],
+	"instvars" : [
+		"teapot",
+		"staticFolder"
+	],
+	"name" : "AbstractTestServer",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "VincentBlondeau 1/22/2016 17:08",
+	"super" : "Error",
+	"category" : "TestServer-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TSRollback",
+	"type" : "normal"
+}

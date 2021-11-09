@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "FamixDiffAbstractPostOperator",
+	"category" : "TestServer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TestSelectorPartialModelDiffReducer",
+	"type" : "normal"
+}

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "FAMIXNamedEntity",
+	"category" : "TestServer-Query-DeltaModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"session",
+		"duration",
+		"status",
+		"coraStrategy",
+		"type"
+	],
+	"name" : "MooseTestExecution",
+	"type" : "normal"
+}

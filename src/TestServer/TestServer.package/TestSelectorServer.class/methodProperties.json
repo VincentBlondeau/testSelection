@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"resetProject" : "VincentBlondeau 3/6/2017 11:42",
+		"transformFromToStCollection:" : "VincentBlondeau 12/1/2016 11:39",
+		"serializeModel:andException:" : "VincentBlondeau 5/22/2017 14:07",
+		"startOn:" : "VincentBlondeau 2/9/2017 15:55",
+		"uploadActions" : "VincentBlondeau 6/2/2017 13:36",
+		"importMSEFrom:" : "VincentBlondeau 5/22/2017 14:09"
+	},
+	"class" : {
+		"initialize" : "VincentBlondeau 3/6/2017 11:38",
+		"logFacilityLevel" : "VincentBlondeau 1/19/2017 17:37",
+		"version" : "VincentBlondeau 3/6/2017 11:40"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"instance" : {
+		"numberOfTestsOfProjectNamed:" : "VincentBlondeau 7/20/2016 14:33",
+		"numberOfTestSessionBetweenTwoCommits:" : "VincentBlondeau 7/20/2016 10:52",
+		"sortByKey:" : "VincentBlondeau 7/20/2016 11:45",
+		"testingTimeBetween2Commits:" : "VincentBlondeau 7/20/2016 12:14",
+		"getRepoList" : "VincentBlondeau 7/20/2016 10:18",
+		"groupTestSessionsBetween2Commits:" : "VincentBlondeau 7/20/2016 17:53",
+		"groupTestSessionsBetween2CommitsWithTests:" : "VincentBlondeau 7/20/2016 11:52",
+		"testSessionsBetween2Commits:" : "VincentBlondeau 7/20/2016 11:10",
+		"timeDeltaBetweenLastSessionAndCommitData:" : "VincentBlondeau 7/20/2016 10:59",
+		"transformDaysInHours:" : "VincentBlondeau 7/20/2016 10:52",
+		"computeLevelOf:" : "VincentBlondeau 7/20/2016 18:33",
+		"ratioOfExecutedTestForEachSession:" : "VincentBlondeau 8/8/2016 16:10",
+		"exportRepoAndVersionsForDiffAnalysis:" : "VincentBlondeau 8/31/2016 15:53",
+		"correlateRepoAndTests" : "VincentBlondeau 8/8/2016 17:20",
+		"exportRequiredRepoForDiffAnalysis:" : "VincentBlondeau 7/26/2016 17:13",
+		"on:apply:" : "VincentBlondeau 7/20/2016 12:09",
+		"thresholds" : "VincentBlondeau 7/20/2016 18:32",
+		"nbTestsBetween2Commits:" : "VincentBlondeau 7/20/2016 11:08"
+	},
+	"class" : {
+		"authorToDB" : "VincentBlondeau 3/6/2017 15:34",
+		"correlateRepoAndTests" : "VincentBlondeau 7/20/2016 10:54",
+		"getRepoList" : "VincentBlondeau 7/20/2016 10:18"
+	}
+}

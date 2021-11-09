@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TestServerQueries",
+	"category" : "TestServer-Query-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TestServerRepoAndTestsCorrelations",
+	"type" : "normal"
+}

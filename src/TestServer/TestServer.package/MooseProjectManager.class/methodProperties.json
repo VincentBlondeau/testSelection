@@ -1,0 +1,20 @@
+{
+	"instance" : {
+		"projects" : "VincentBlondeau 11/28/2016 15:24",
+		"projectNamed:" : "VincentBlondeau 12/8/2016 11:27",
+		"newMSE:fromUser:project:type:changes:" : "VincentBlondeau 12/8/2016 11:14",
+		"initialize" : "VincentBlondeau 11/28/2016 15:24",
+		"resetUser:" : "VincentBlondeau 2/9/2017 17:57",
+		"resetProject:fromUser:" : "VincentBlondeau 6/2/2017 14:37",
+		"findProjectNamed:ofUser:" : "VincentBlondeau 11/29/2016 15:40"
+	},
+	"class" : {
+		"resetProject:fromUser:" : "VincentBlondeau 6/6/2017 12:03",
+		"resetUser:" : "VincentBlondeau 2/9/2017 17:22",
+		"initialize" : "VincentBlondeau 11/29/2016 13:55",
+		"instance" : "VincentBlondeau 11/28/2016 15:08",
+		"instance:" : "VincentBlondeau 11/28/2016 15:08",
+		"addNewMSE:fromUser:project:type:changes:" : "VincentBlondeau 11/28/2016 15:15",
+		"findProjectNamed:ofUser:" : "VincentBlondeau 11/29/2016 15:38"
+	}
+}

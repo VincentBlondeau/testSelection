@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MooseGroup",
+	"category" : "TestServer-Query-DeltaModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"previousGroup"
+	],
+	"name" : "MooseTestAbstractGroup",
+	"type" : "normal"
+}

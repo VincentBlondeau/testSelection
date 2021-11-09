@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"testImportOnce" : "VincentBlondeau 5/22/2017 11:59",
+		"testImportTwice" : "VincentBlondeau 5/22/2017 11:57",
+		"testImportTwiceAndTestDiff" : "VincentBlondeau 5/30/2017 15:11",
+		"testImportTwiceAndTestSelection" : "VincentBlondeau 12/7/2016 14:51",
+		"msePartial1" : "VincentBlondeau 12/5/2016 15:26",
+		"mseFull" : "VincentBlondeau 12/5/2016 15:24",
+		"msePartial2" : "VincentBlondeau 12/5/2016 15:27"
+	},
+	"class" : { }
+}

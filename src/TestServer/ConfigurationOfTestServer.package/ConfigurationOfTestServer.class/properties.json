@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfTestServer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfTestServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
